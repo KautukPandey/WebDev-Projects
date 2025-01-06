@@ -1,0 +1,135 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url(johannes-andersson-UCd78vfC8vU-unsplash.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(henry-be-IicyiaPYGGI-unsplash.jpg);
+    min-height: 600px;
+}
+.pimg3{
+    background-image: url(v2osk-1Z2niiBPg5A-unsplash.jpg);
+    min-height: 500px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    opacity: .8;
+    margin-bottom: 50px;
+}
+.textBg{
+    background: #666;
+    color: white;
+    padding: 20px 20px;
+}
+
+
+
+
+.contsec1{
+    margin: 0px auto;
+    
+    display: flex;
+    flex-direction: column;
+    max-width:889px;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+
+.head1{
+    position: relative;
+    width: 100%;
+    left: 28%;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 10px;
+   
+}
+
+.contsec2{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    max-width:889px;
+    align-content: center;
+    min-height: 400px;
+    
+}
+.textBg1{
+    background: turquoise;
+    color: black;
+    padding: 20px 20px;
+    
+}
+
+.head2{
+    position: relative;
+    width: 100%;
+    left: 28%;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.sec2{
+    background-color:#353535;
+    color: white;
+}
+
+
+.textBg2{
+    color: white;
+    padding: 20px 20px;
+}
+
+.countsec3{
+    margin: 0px auto;
+    
+    display: flex;
+    flex-direction: column;
+    max-width:889px;
+    align-content: center;
+    min-height: 475px;
+}
+.sec3{
+    
+    background-color: #353535;
+    color: white;
+}
+.head3{
+    position: relative;
+    width: 100%;
+    left: 22%;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
